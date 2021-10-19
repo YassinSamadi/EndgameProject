@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;700&display=swap');
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'DM Sans', sans-serif;
+    word-wrap: break-word;
+    word-break: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+dt {
+    font-weight: bold;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'DM Sans';
+  font-weight: normal;
+  }
+
+////////////////
+fontmazim, .fontmazim{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+p:last-child{
+  margin: 0;
+}
+about-infoli{
+  font-weight: bold;
+}
+buttonstyle,.buttonstyle{
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 24px;
+}
+textdshop, .textdshop{
+  font-size: 20px;
+  line-height: 32px;
+  font-family: DM Sans;
+}
+.breakword{
+  word-break: break-all;
+}
+
+////////////////////////////////////////////
+h1{
+  font-size: 72px;
+  line-height: 80px;
+  font-family: 'Alfa Slab One';
+  font-weight:normal;
+}
+h2{
+  font-size: 56px;
+  line-height: 64px;
+  font-family: 'Alfa Slab One';
+  font-weight:normal;
+}
+h3{
+  font-size: 40px;
+  line-height: 48px;
+  font-family: 'Alfa Slab One';
+  font-weight:normal;
+}
+h4{
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+}
+h5{
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+}
+.label{
+  font-size: 12px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+}
+.text-big{
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'DM Sans';
+  font-weight: normal;
+}
+.text{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+}
+.text_gray{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'DM Sans';
+  font-weight: normal;
+}
+.text_small{
+  font-size: 12px;
+  line-height: 24px;
+  font-family: 'DM Sans';
+  font-weight: Bold;
+}
+.numbers{
+  font-size: 24px;
+  font-family: 'Alfa Slab One';
+  font-weight: normal;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+$colors: (
+  'bodycolor': #333,
+  'hovercolor': #222222,
+  'submitcolor': #999,
+  'activecolor': #222222,
+  'backgroundcolor': #FF8482,
+  'footercolor': #BE6361,
+  'footerbottomcolor': #A85756,
+  'buttoncolor': #BE6361,
+  'border': #ddd,
+  'border2': #eaeaea,
+  'border3':rgba(51, 51, 51, 0.1),
+  'header': #fff,
+  'midsection': #FFF2DD,
+  'footertextcolor': #FFFFFF,
+  'mixgray': #333,
+  'darkgrey': #222222,
+  'lightgrey': #999,
+  'pink': #FF8482,
+  'pinkdark': #BE6361,
+  'pinkdarker': #A85756,
+  'lightgrey2': #ddd,
+  'lightgrey3': #eaeaea,
+  'bordercolor':rgba(51, 51, 51, 0.1),
+  'white': #fff,
+  'midsectionlight': #FFF2DD,
+  'whitewhite': #FFFFFF,
+  'blackgrey' : #333333,
+  'grey50' : rgba(51, 51, 51, 0.5),
+  'whitefooter': rgba(255, 255, 255, 0.5),
+  'numbers': #E5E5E5
+);
+
+@each $key, $value in $colors {
+    .bg--#{$key} { 
+      background-color: #{$value}; 
+    }
+    .fc--#{$key} {
+      color: #{$value};
+    }
+  }

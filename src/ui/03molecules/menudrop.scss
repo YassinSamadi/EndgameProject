@@ -1,0 +1,42 @@
+@media screen and (max-width:600px) {
+    .menu-toggle-btn{
+      display: block !important;
+      
+    }
+  
+    .navigation-menu{
+      position: fixed;
+      width: 100%;
+      max-width: 400px;
+      background: #fff;
+      top: 70px;
+      right: 0;
+      display: none;
+      padding: 20px 40px;
+      box-sizing: border-box;
+     
+    }
+  
+    .navigation-menu::before{
+      content: "";
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+      position: absolute;
+      top: -10px;
+      right: 25px;
+      
+    }
+  
+    .navigation-menu a{
+      display: block;
+      margin: 10px 0;
+      color: map-get($map: $colors, $key: 'darkgrey');
+    }
+  
+    .navigation-menu.active{
+      display: block;
+     
+    }
+    
+  }

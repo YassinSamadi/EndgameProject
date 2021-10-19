@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+@media only screen and (max-width: 1024px) {
+    .row { display: none; }
+}
+@media only screen and (min-width: 1024px) {
+  .hidenav2 { display: none; }
+}
+.menubar{
+    text-align: right;
+   
+}
+@media only screen and (max-width: 1024px) {
+  .headerroom { 
+    display:inline-block;
+    justify-content:space-between; 
+  }
+}
+@media only screen and (min-width: 600px) {
+  .textalignnext{
+    display: inline-block;
+  }
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+/*.main-menu {
+    text-align: center;
+    width: 100%;
+}
+.main-menu ul li{
+  margin: 0 15px;
+  display: inline-block;
+}
+.main-menu ul li a{
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+.main-menu ul li a:hover{
+  color: #333;
+}
+.header-right {
+    text-align: right;
+}
+row
+align-items-center nav_link main-menu
+*/

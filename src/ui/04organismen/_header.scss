@@ -1,0 +1,15 @@
+.header-section {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 15px;
+    
+}
+.subscription-field{
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+}
+.headermax{
+    max-width: 500px;
+}

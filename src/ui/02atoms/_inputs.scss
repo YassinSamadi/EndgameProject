@@ -1,0 +1,17 @@
+.emailinput{
+    height:48px;
+    width: 346px;
+    
+}
+input{
+    &::placeholder{color: map-get(
+        $map: $colors, $key: 'grey50');
+        padding-left: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: DM Sans;
+        
+    }
+}
+
+

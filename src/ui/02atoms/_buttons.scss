@@ -1,0 +1,33 @@
+.button_variant{
+    width: 170px;
+    height: 48px;
+    font-weight: 700;
+    
+    
+    &_1{
+        @extend .button_variant;
+        border: 2px solid #2B2B2B;
+        background-color: #FFFFFF;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    &_2{
+        @extend .button_variant;
+        background-color: #A85756;
+        padding: 0;
+        border: none;
+
+    }
+    &_3{
+        @extend .button_variant;
+        border: 1px solid #FF8482;
+       // background-color: map-get($colors, 'border2');
+    }
+    &_4{
+        @extend .button_variant;
+        border: 1px solid #FFF;
+        background-color: #FF8482;
+       // background-color: map-get($colors, 'border2');
+    }
+    
+}

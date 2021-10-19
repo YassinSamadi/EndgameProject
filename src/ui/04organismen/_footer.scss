@@ -1,0 +1,38 @@
+.footerplace{
+    display:inline-block;
+    justify-content:space-evenly;
+}
+footer {
+    .block {
+        min-height: 448px;
+        &__right {
+            max-width: 480px;
+        }
+    }
+}
+@media only screen and (min-width: 970px) {
+    footer {
+        .footerunder{
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .block {
+            height: 448px;
+
+            &__columns {
+                width: 600px;
+            }
+            &__lists {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .list {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+

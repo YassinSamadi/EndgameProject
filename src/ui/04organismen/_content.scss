@@ -1,0 +1,127 @@
+.align-text{
+    text-align: center;
+    justify-content: center;
+}
+// .banner{
+//     background-image: url(../../../dist/images/cta-bg.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     justify-content: center;
+// }
+@media only screen and (min-width: 600px) {
+    .diconullampic { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .centerobjects { 
+        align-items: center;    
+        justify-content:center;
+    }
+    .imagesres { 
+        display: flex;   
+        justify-content: space-between;
+        margin: auto;
+        max-width: 1200px;
+    }
+    .evenobjects { 
+        align-items: center;    
+        justify-content:space-evenly;
+    }
+    .buttonplace { 
+        display:inline-block;
+        justify-content:space-evenly;
+    }
+    .mailboxsize { 
+        width: 270px;
+    }
+    
+    h2{
+        font-size: 72px;
+        line-height: 80px;
+    }
+   
+   .containerresize { 
+    max-width: 570;
+   }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .containerresize2 { 
+         max-width: 350;
+    }
+}
+.bg {
+    /* The image used */
+    background-image: url("/dist/images/cta-bg.jpg");
+  
+    /* Full height */
+    height: 448px; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner {
+    display: flex;
+    height: 448px;
+    width: 100%;
+    background: url("../images/cta-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+    &__icon {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		border-radius: 3px;
+		box-shadow: 0 2px 10px 0 #b3b3b3;
+		width: 130px;
+		height: 130px;
+	}
+    &__align{
+        text-align: left;
+    }
+}
+.viewport{
+    height: 90vh;
+}
+.contentmax{
+    max-width: 430px;
+}
+.contentmax{
+    max-width: 450px;
+}
+.contentpossim{
+    max-width: 320px;
+}
+.contentheart{
+    max-width: 300px;
+}
+.contentbottom{
+    max-width: 650px;
+}
+.contentmidd{
+    max-width: 350px;
+}
+.contenteupro{
+    max-width: 570px;
+}
+
+
+

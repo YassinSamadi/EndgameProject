@@ -1,0 +1,19 @@
+.button1:hover{
+    background-color: map-get($colors, 'white');
+    color: map-get($colors, 'pink');
+}
+.button2:hover{
+    background-color: map-get($colors, 'darkgrey');
+    color: map-get($colors, 'white');
+}
+.button3:hover{
+    background-color: map-get($colors, 'white');
+    color: map-get($colors, 'pinkdarker');
+}
+.button4:hover{
+    background-color: map-get($colors, 'pinkdarker');
+    color: map-get($colors, 'white');
+}
+.texthover:hover{
+    color: map-get($colors, 'darkgrey');
+}

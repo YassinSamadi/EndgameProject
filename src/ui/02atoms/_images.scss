@@ -1,0 +1,33 @@
+.imagevariant{
+    
+    position: center;
+
+    &_1{
+        
+        width: 100%;
+        height: auto;
+        max-height: 644px;
+        max-width: 506px;
+    }
+    &_2{
+        max-width: 330;
+        max-height: 280;
+    }
+    &_3{
+        max-width: 80;
+        max-height: 91;
+    }
+    &_4{
+        object-fit: cover;
+       
+    }
+    &_5{
+        vertical-align: top;
+        display: inline-block;
+  overflow: hidden;
+    }
+}
+
+
+
+
